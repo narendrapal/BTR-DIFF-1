@@ -1,0 +1,1610 @@
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs-image.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs-image.o.d
+new file mode 100644
+index 0000000..6341356
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs-image.o.d
+@@ -0,0 +1,3 @@
++btrfs-image.o: btrfs-image.c kerncompat.h crc32c.h ctree.h list.h \
++ radix-tree.h extent-cache.h rbtree.h extent_io.h ioctl.h disk-io.h \
++ transaction.h utils.h version.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs-list.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs-list.o.d
+new file mode 100644
+index 0000000..b825047
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs-list.o.d
+@@ -0,0 +1,2 @@
++btrfs-list.o: btrfs-list.c ioctl.h kerncompat.h ctree.h list.h \
++ radix-tree.h extent-cache.h rbtree.h extent_io.h transaction.h utils.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs-map-logical.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs-map-logical.o.d
+new file mode 100644
+index 0000000..51d7766
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs-map-logical.o.d
+@@ -0,0 +1,3 @@
++btrfs-map-logical.o: btrfs-map-logical.c kerncompat.h ctree.h list.h \
++ radix-tree.h extent-cache.h rbtree.h extent_io.h ioctl.h volumes.h \
++ disk-io.h print-tree.h transaction.h version.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs-show.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs-show.o.d
+new file mode 100644
+index 0000000..005db67
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs-show.o.d
+@@ -0,0 +1,3 @@
++btrfs-show.o: btrfs-show.c ioctl.h kerncompat.h ctree.h list.h \
++ radix-tree.h extent-cache.h rbtree.h extent_io.h transaction.h utils.h \
++ volumes.h version.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs-vol.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs-vol.o.d
+new file mode 100644
+index 0000000..41ff0d1
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs-vol.o.d
+@@ -0,0 +1,2 @@
++btrfs-vol.o: btrfs-vol.c ioctl.h kerncompat.h ctree.h list.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h transaction.h utils.h volumes.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs-zero-log.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs-zero-log.o.d
+new file mode 100644
+index 0000000..f7c36fa
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs-zero-log.o.d
+@@ -0,0 +1,3 @@
++btrfs-zero-log.o: btrfs-zero-log.c kerncompat.h ctree.h list.h \
++ radix-tree.h extent-cache.h rbtree.h extent_io.h ioctl.h disk-io.h \
++ print-tree.h transaction.h version.h utils.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs.o.d
+new file mode 100644
+index 0000000..cb05395
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfs.o.d
+@@ -0,0 +1 @@
++btrfs.o: btrfs.c commands.h version.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.btrfsck.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfsck.o.d
+new file mode 100644
+index 0000000..ba9bb5b
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfsck.o.d
+@@ -0,0 +1,3 @@
++btrfsck.o: btrfsck.c kerncompat.h ctree.h list.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h volumes.h repair.h disk-io.h \
++ print-tree.h transaction.h version.h utils.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.btrfsctl.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfsctl.o.d
+new file mode 100644
+index 0000000..84940d6
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfsctl.o.d
+@@ -0,0 +1,2 @@
++btrfsctl.o: btrfsctl.c ioctl.h kerncompat.h ctree.h list.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h transaction.h utils.h version.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.btrfslabel.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfslabel.o.d
+new file mode 100644
+index 0000000..a2c7499
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfslabel.o.d
+@@ -0,0 +1,3 @@
++btrfslabel.o: btrfslabel.c ioctl.h kerncompat.h ctree.h list.h \
++ radix-tree.h extent-cache.h rbtree.h extent_io.h utils.h version.h \
++ disk-io.h transaction.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.btrfstune.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfstune.o.d
+new file mode 100644
+index 0000000..8624e66
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.btrfstune.o.d
+@@ -0,0 +1,3 @@
++btrfstune.o: btrfstune.c kerncompat.h ctree.h list.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h disk-io.h transaction.h \
++ utils.h version.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-balance.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-balance.o.d
+new file mode 100644
+index 0000000..135b50f
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-balance.o.d
+@@ -0,0 +1,2 @@
++cmds-balance.o: cmds-balance.c kerncompat.h ctree.h list.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h volumes.h commands.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-device.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-device.o.d
+new file mode 100644
+index 0000000..bc7406f
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-device.o.d
+@@ -0,0 +1,2 @@
++cmds-device.o: cmds-device.c kerncompat.h ctree.h list.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h utils.h commands.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-filesystem.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-filesystem.o.d
+new file mode 100644
+index 0000000..bb80a16
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-filesystem.o.d
+@@ -0,0 +1,3 @@
++cmds-filesystem.o: cmds-filesystem.c kerncompat.h ctree.h list.h \
++ radix-tree.h extent-cache.h rbtree.h extent_io.h ioctl.h utils.h \
++ volumes.h version.h commands.h btrfslabel.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-inspect.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-inspect.o.d
+new file mode 100644
+index 0000000..52c71b1
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-inspect.o.d
+@@ -0,0 +1 @@
++cmds-inspect.o: cmds-inspect.c kerncompat.h ioctl.h commands.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-receive.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-receive.o.d
+new file mode 100644
+index 0000000..f8480b9
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-receive.o.d
+@@ -0,0 +1,3 @@
++cmds-receive.o: cmds-receive.c ctree.h list.h kerncompat.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h commands.h send.h \
++ send-stream.h send-utils.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-scrub.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-scrub.o.d
+new file mode 100644
+index 0000000..cd04371
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-scrub.o.d
+@@ -0,0 +1,3 @@
++cmds-scrub.o: cmds-scrub.c ctree.h list.h kerncompat.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h utils.h volumes.h disk-io.h \
++ commands.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-send.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-send.o.d
+new file mode 100644
+index 0000000..7d01e47
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-send.o.d
+@@ -0,0 +1,3 @@
++cmds-send.o: cmds-send.c ctree.h list.h kerncompat.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h commands.h send.h \
++ send-utils.h send-stream.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-subvolume.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-subvolume.o.d
+new file mode 100644
+index 0000000..1361c05
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.cmds-subvolume.o.d
+@@ -0,0 +1,3 @@
++cmds-subvolume.o: cmds-subvolume.c kerncompat.h ioctl.h commands.h \
++ send-utils.h ctree.h list.h radix-tree.h extent-cache.h rbtree.h \
++ extent_io.h send-stream.h send.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.common.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.common.o.d
+new file mode 100644
+index 0000000..a224f58
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.common.o.d
+@@ -0,0 +1 @@
++common.o: common.c
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.convert.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.convert.o.d
+new file mode 100644
+index 0000000..32fe2d2
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.convert.o.d
+@@ -0,0 +1,3 @@
++convert.o: convert.c kerncompat.h ctree.h list.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h disk-io.h volumes.h \
++ transaction.h crc32c.h utils.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.crc32c.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.crc32c.o.d
+new file mode 100644
+index 0000000..447c657
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.crc32c.o.d
+@@ -0,0 +1 @@
++crc32c.o: crc32c.c kerncompat.h crc32c.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.ctree.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.ctree.o.d
+new file mode 100644
+index 0000000..4190c6d
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.ctree.o.d
+@@ -0,0 +1,3 @@
++ctree.o: ctree.c ctree.h list.h kerncompat.h radix-tree.h extent-cache.h \
++ rbtree.h extent_io.h ioctl.h disk-io.h transaction.h print-tree.h \
++ repair.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.debug-tree.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.debug-tree.o.d
+new file mode 100644
+index 0000000..92bbef5
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.debug-tree.o.d
+@@ -0,0 +1,3 @@
++debug-tree.o: debug-tree.c kerncompat.h radix-tree.h ctree.h list.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h disk-io.h print-tree.h \
++ transaction.h version.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.dir-item.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.dir-item.o.d
+new file mode 100644
+index 0000000..288b414
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.dir-item.o.d
+@@ -0,0 +1,3 @@
++dir-item.o: dir-item.c ctree.h list.h kerncompat.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h disk-io.h hash.h crc32c.h \
++ transaction.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.disk-io.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.disk-io.o.d
+new file mode 100644
+index 0000000..d2756bc
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.disk-io.o.d
+@@ -0,0 +1,3 @@
++disk-io.o: disk-io.c kerncompat.h radix-tree.h ctree.h list.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h disk-io.h volumes.h \
++ transaction.h crc32c.h utils.h print-tree.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.extent-cache.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.extent-cache.o.d
+new file mode 100644
+index 0000000..978e65e
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.extent-cache.o.d
+@@ -0,0 +1 @@
++extent-cache.o: extent-cache.c kerncompat.h extent-cache.h rbtree.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.extent-tree.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.extent-tree.o.d
+new file mode 100644
+index 0000000..42df312
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.extent-tree.o.d
+@@ -0,0 +1,3 @@
++extent-tree.o: extent-tree.c kerncompat.h radix-tree.h ctree.h list.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h disk-io.h print-tree.h \
++ transaction.h crc32c.h volumes.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.extent_io.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.extent_io.o.d
+new file mode 100644
+index 0000000..3570440
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.extent_io.o.d
+@@ -0,0 +1,2 @@
++extent_io.o: extent_io.c kerncompat.h extent_io.h extent-cache.h rbtree.h \
++ list.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.file-item.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.file-item.o.d
+new file mode 100644
+index 0000000..ec21607
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.file-item.o.d
+@@ -0,0 +1,3 @@
++file-item.o: file-item.c kerncompat.h radix-tree.h ctree.h list.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h disk-io.h transaction.h \
++ print-tree.h crc32c.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.find-root.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.find-root.o.d
+new file mode 100644
+index 0000000..9d2e1ed
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.find-root.o.d
+@@ -0,0 +1,3 @@
++find-root.o: find-root.c kerncompat.h ctree.h list.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h disk-io.h print-tree.h \
++ transaction.h version.h volumes.h utils.h crc32c.h
+diff --git a/home/nafisa/btr-diff/btrfs-progs-original/.git/index b/home/nafisa/Desktop/btrfs-progs-22-03/.git/index
+index 60421ff..fb182fb 100644
+Binary files a/home/nafisa/btr-diff/btrfs-progs-original/.git/index and b/home/nafisa/Desktop/btrfs-progs-22-03/.git/index differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.help.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.help.o.d
+new file mode 100644
+index 0000000..ffa18d4
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.help.o.d
+@@ -0,0 +1 @@
++help.o: help.c commands.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.inode-item.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.inode-item.o.d
+new file mode 100644
+index 0000000..f48c4d6
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.inode-item.o.d
+@@ -0,0 +1,2 @@
++inode-item.o: inode-item.c ctree.h list.h kerncompat.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h disk-io.h transaction.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.inode-map.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.inode-map.o.d
+new file mode 100644
+index 0000000..c53fb9d
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.inode-map.o.d
+@@ -0,0 +1,2 @@
++inode-map.o: inode-map.c ctree.h list.h kerncompat.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h disk-io.h transaction.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.mkfs.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.mkfs.o.d
+new file mode 100644
+index 0000000..def4949
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.mkfs.o.d
+@@ -0,0 +1,3 @@
++mkfs.o: mkfs.c ioctl.h kerncompat.h ctree.h list.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h disk-io.h volumes.h transaction.h \
++ utils.h version.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.print-tree.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.print-tree.o.d
+new file mode 100644
+index 0000000..33527e4
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.print-tree.o.d
+@@ -0,0 +1,2 @@
++print-tree.o: print-tree.c kerncompat.h radix-tree.h ctree.h list.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h disk-io.h print-tree.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.radix-tree.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.radix-tree.o.d
+new file mode 100644
+index 0000000..7bcf715
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.radix-tree.o.d
+@@ -0,0 +1 @@
++radix-tree.o: radix-tree.c kerncompat.h radix-tree.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.rbtree.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.rbtree.o.d
+new file mode 100644
+index 0000000..9ed8b84
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.rbtree.o.d
+@@ -0,0 +1 @@
++rbtree.o: rbtree.c rbtree.h kerncompat.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.repair.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.repair.o.d
+new file mode 100644
+index 0000000..a8f086b
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.repair.o.d
+@@ -0,0 +1,2 @@
++repair.o: repair.c ctree.h list.h kerncompat.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h utils.h repair.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.restore.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.restore.o.d
+new file mode 100644
+index 0000000..9bf9e1b
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.restore.o.d
+@@ -0,0 +1,3 @@
++restore.o: restore.c kerncompat.h ctree.h list.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h disk-io.h print-tree.h \
++ transaction.h version.h volumes.h utils.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.root-tree.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.root-tree.o.d
+new file mode 100644
+index 0000000..ee398cd
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.root-tree.o.d
+@@ -0,0 +1,3 @@
++root-tree.o: root-tree.c ctree.h list.h kerncompat.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h transaction.h disk-io.h \
++ print-tree.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.send-stream.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.send-stream.o.d
+new file mode 100644
+index 0000000..b4006d9
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.send-stream.o.d
+@@ -0,0 +1,3 @@
++send-stream.o: send-stream.c send.h ctree.h list.h kerncompat.h \
++ radix-tree.h extent-cache.h rbtree.h extent_io.h ioctl.h send-stream.h \
++ crc32c.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.send-utils.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.send-utils.o.d
+new file mode 100644
+index 0000000..42cd215
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.send-utils.o.d
+@@ -0,0 +1,2 @@
++send-utils.o: send-utils.c ctree.h list.h kerncompat.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h send-utils.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.utils.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.utils.o.d
+new file mode 100644
+index 0000000..3faf615
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.utils.o.d
+@@ -0,0 +1,3 @@
++utils.o: utils.c kerncompat.h radix-tree.h ctree.h list.h extent-cache.h \
++ rbtree.h extent_io.h ioctl.h disk-io.h transaction.h crc32c.h utils.h \
++ volumes.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/.volumes.o.d b/home/nafisa/Desktop/btrfs-progs-22-03/.volumes.o.d
+new file mode 100644
+index 0000000..2456310
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/.volumes.o.d
+@@ -0,0 +1,3 @@
++volumes.o: volumes.c ctree.h list.h kerncompat.h radix-tree.h \
++ extent-cache.h rbtree.h extent_io.h ioctl.h disk-io.h transaction.h \
++ print-tree.h volumes.h
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfs b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs
+new file mode 100755
+index 0000000..6529074
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-convert b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-convert
+new file mode 100755
+index 0000000..b01e77f
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-convert differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-debug-tree b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-debug-tree
+new file mode 100755
+index 0000000..a6a9fe8
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-debug-tree differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-find-root b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-find-root
+new file mode 100755
+index 0000000..03444d9
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-find-root differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-image b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-image
+new file mode 100755
+index 0000000..31bfbc8
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-image differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-image.o b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-image.o
+new file mode 100644
+index 0000000..7fd698c
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-image.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-list.o b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-list.o
+new file mode 100644
+index 0000000..78b05c5
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-list.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-map-logical b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-map-logical
+new file mode 100755
+index 0000000..5eac65a
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-map-logical differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-map-logical.o b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-map-logical.o
+new file mode 100644
+index 0000000..3717e3f
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-map-logical.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-restore b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-restore
+new file mode 100755
+index 0000000..8296ea6
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-restore differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-show b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-show
+new file mode 100755
+index 0000000..059d3ac
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-show differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-show.o b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-show.o
+new file mode 100644
+index 0000000..5c22fad
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-show.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-vol b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-vol
+new file mode 100755
+index 0000000..ac4f1d1
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-vol differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-vol.o b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-vol.o
+new file mode 100644
+index 0000000..e0c2903
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-vol.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-zero-log b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-zero-log
+new file mode 100755
+index 0000000..9e64447
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-zero-log differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-zero-log.o b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-zero-log.o
+new file mode 100644
+index 0000000..34c4245
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs-zero-log.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfs.o b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs.o
+new file mode 100644
+index 0000000..ef1d11b
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfs.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfsck b/home/nafisa/Desktop/btrfs-progs-22-03/btrfsck
+new file mode 100755
+index 0000000..d6640e1
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfsck differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfsck.o b/home/nafisa/Desktop/btrfs-progs-22-03/btrfsck.o
+new file mode 100644
+index 0000000..75a7bd3
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfsck.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfsctl b/home/nafisa/Desktop/btrfs-progs-22-03/btrfsctl
+new file mode 100755
+index 0000000..dae0afc
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfsctl differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfsctl.o b/home/nafisa/Desktop/btrfs-progs-22-03/btrfsctl.o
+new file mode 100644
+index 0000000..d8a3fd1
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfsctl.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfslabel.o b/home/nafisa/Desktop/btrfs-progs-22-03/btrfslabel.o
+new file mode 100644
+index 0000000..3d16ca2
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfslabel.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfstune b/home/nafisa/Desktop/btrfs-progs-22-03/btrfstune
+new file mode 100755
+index 0000000..916a93c
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfstune differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/btrfstune.o b/home/nafisa/Desktop/btrfs-progs-22-03/btrfstune.o
+new file mode 100644
+index 0000000..e9a4f71
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/btrfstune.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/cmds-balance.o b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-balance.o
+new file mode 100644
+index 0000000..f6b7d44
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-balance.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/cmds-device.o b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-device.o
+new file mode 100644
+index 0000000..53ce133
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-device.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/cmds-filesystem.o b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-filesystem.o
+new file mode 100644
+index 0000000..d94edec
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-filesystem.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/cmds-inspect.o b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-inspect.o
+new file mode 100644
+index 0000000..cd4d3bb
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-inspect.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/cmds-receive.o b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-receive.o
+new file mode 100644
+index 0000000..403a5d2
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-receive.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/cmds-scrub.o b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-scrub.o
+new file mode 100644
+index 0000000..4a003bf
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-scrub.o differ
+diff --git a/home/nafisa/btr-diff/btrfs-progs-original/cmds-send.c b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-send.c
+index aba25b1..fa09d89 100644
+--- a/home/nafisa/btr-diff/btrfs-progs-original/cmds-send.c
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-send.c
+@@ -37,20 +37,10 @@
+ 
+ #include "send.h"
+ #include "send-utils.h"
++#include "send-stream.h"
+ 
+ static int g_verbose = 0;
+-
+-struct btrfs_send {
+-	int send_fd;
+-	int dump_fd;
+-	int mnt_fd;
+-
+-	u64 *clone_sources;
+-	u64 clone_sources_count;
+-
+-	char *root_path;
+-	struct subvol_uuid_search sus;
+-};
++char* s_name;
+ 
+ int find_mount_root(const char *path, char **mount_root)
+ {
+@@ -127,7 +117,7 @@ out:
+ 	return ret;
+ }
+ 
+-static int get_root_id(struct btrfs_send *s, const char *path, u64 *root_id)
++int get_root_id(struct btrfs_send *s, const char *path, u64 *root_id)
+ {
+ 	struct subvol_info *si;
+ 
+@@ -155,7 +145,7 @@ static struct subvol_info *get_parent(struct btrfs_send *s, u64 root_id)
+ 	return si;
+ }
+ 
+-static int find_good_parent(struct btrfs_send *s, u64 root_id, u64 *found)
++int find_good_parent(struct btrfs_send *s, u64 root_id, u64 *found)
+ {
+ 	int ret;
+ 	struct subvol_info *parent;
+@@ -208,13 +198,219 @@ out:
+ 	return ret;
+ }
+ 
+-static void add_clone_source(struct btrfs_send *s, u64 root_id)
++void add_clone_source(struct btrfs_send *s, u64 root_id)
+ {
+ 	s->clone_sources = realloc(s->clone_sources,
+ 		sizeof(*s->clone_sources) * (s->clone_sources_count + 1));
+ 	s->clone_sources[s->clone_sources_count++] = root_id;
+ }
+ 
++static int process_snapshot(const char *path, const u8 *uuid, u64 ctransid,
++                            const u8 *parent_uuid, u64 parent_ctransid,
++                            void *user)
++{
++        s_name = strdup(path);
++	return 0;
++}
++
++static int process_write(const char *path, const void *data, u64 offset,
++                         u64 len, void *user)
++{
++        struct btrfs_send *r = user;
++	char *full_path = path_cat(s_name, path);
++	full_path = path_cat(r->root_path, full_path);
++	int w = 0,ret;
++	u64 pos = 0;
++
++	BTRFS_SUMMARY == 0 ? printf(" W : \t%s\n", full_path) : 0;
++	
++	if(BTRFS_ALL) {
++	        while (pos < len) {
++		        w = printf("\n\t*%s", (char*)data + pos);
++			if (w < 0) {
++			  ret = -errno;
++			fprintf(stderr, "ERROR: writing to %s failed. %s\n",
++				path, strerror(-ret));
++			goto out;
++			}
++			pos += w;
++		}
++	}
++ out:
++        return 0;
++}
++
++static int process_mkfile(const char *path, void *user)
++{
++        struct btrfs_send *r = user;
++	char *full_path = path_cat(s_name, path);
++	full_path = path_cat(r->root_path, full_path);
++
++	printf("+F : \t%s\n", full_path);
++	return 0;
++}
++
++static int process_mkdir(const char *path, void *user)
++{
++        struct btrfs_send *r = user;
++	char *full_path = path_cat(s_name, path);
++	full_path = path_cat(r->root_path, full_path);
++
++	printf("+D : \t%s\n\n", full_path);
++	return 0;
++}
++
++static int process_unlink(const char *path, void *user)
++{
++        struct btrfs_send *r = user;
++	char *full_path = path_cat(s_name, path);
++	full_path = path_cat(r->root_path, full_path);
++
++	printf("-F : \t%s\n\n", full_path);
++	return 0;
++}
++
++static int process_link(const char *path, const char *lnk, void *user)
++{
++        struct btrfs_send *r = user;
++	char *full_path = path_cat(s_name, path);
++	full_path = path_cat(r->root_path, full_path);
++
++	char *full_link_path = path_cat(s_name, lnk);
++	full_link_path = path_cat(r->root_path, full_link_path);
++
++	printf(" M : \t%s to %s\n", full_link_path, full_path);
++	return 0;
++}
++
++static int process_rmdir(const char *path, void *user)
++{
++        struct btrfs_send *r = user;
++	char *full_path = path_cat(s_name, path);
++	full_path = path_cat(r->root_path, full_path);
++
++	printf("-D : \t%s\n\n", full_path);
++	return 0;
++}
++
++static int process_rename(const char *from, const char *to, void *user)
++{
++        struct btrfs_send *r = user;
++	char *full_from = path_cat(s_name, from);
++	full_from = path_cat(r->root_path, full_from);
++	char *full_to = path_cat(s_name, to);
++	full_to = path_cat(r->root_path, full_to);
++
++	printf(" R : \t%s to %s\n", full_from, full_to);
++	return 0;
++}
++
++struct btrfs_send_ops send_ops1 = {
++        .snapshot = process_snapshot,
++	.mkfile = process_mkfile,
++	.mkdir = process_mkdir,
++	.rename = process_rename,
++	.link = process_link,
++	.unlink = process_unlink,
++	.rmdir = process_rmdir,
++	.write = process_write,
++};
++
++static void print_summary(struct btrfs_diff *bd)
++{
++         printf("\n");
++	 printf("CREATIONS\n");
++	 printf("(+) Files\t\t%d\n", bd->new_file);
++	 printf("(+) Directories\t\t%d\n\n", bd->new_dir);
++	 printf("DELETIONS\n");
++	 printf("(-) Files\t\t%d\n", bd->del_file);
++	 printf("(-) Directories\t\t%d\n\n", bd->del_dir);
++	 printf("(M) New Links\t\t%d\n\n", bd->new_link);
++	 printf("(W) File Writes\t\t%d\n", bd->contents_changed);
++}
++
++static void *dump_thread(void *arg_)
++{
++         int ret;
++	 int readed;
++	 struct btrfs_send *s = (struct btrfs_send*)arg_;
++	 struct btrfs_send_stream bss;
++	 struct btrfs_stream_header hdr;
++	 struct btrfs_diff bd;
++
++	 bd.new_file = 0;
++	 bd.new_dir = 0;
++	 bd.del_file = 0;
++	 bd.new_link = 0;
++	 bd.del_dir = 0;
++	 bd.contents_changed = 0;
++
++	 if (BTRFS_ALL | BTRFS_LIST) {
++	         printf("\n");
++		 printf("Btr-Diff Key :\n\n");
++		 printf("+F : \tFile Creation\n");
++		 printf("-F : \tFile Deletion\n");
++		 printf("+D : \tDirectory Creation\n");
++		 printf("-D : \tDirectory Deletion\n");
++		 printf(" W : \tFile Write\n");
++		 printf(" M : \tMove\n\n\n");
++		 printf("Generating Diff..\n\n");
++	 }
++
++	 while (1) {
++	         readed = read(s->send_fd, &hdr, sizeof(hdr));
++
++		 if (readed < 0) {
++		   ret = -errno;
++		   fprintf(stderr, "ERROR: failed to read stream from "
++			   "kernel. %s\n", strerror(-ret));
++		   goto out;
++		 }
++
++		 if (!readed) {
++		   ret = 0;
++		   goto out;
++		 }
++
++		 if (strcmp(hdr.magic, BTRFS_SEND_STREAM_MAGIC)) {
++		   ret = -EINVAL;
++		   fprintf(stderr, "ERROR: Unexpected header\n");
++		   goto out;
++		 }
++
++		 bss.version = le32_to_cpu(hdr.version);
++		 if (bss.version > BTRFS_SEND_STREAM_VERSION) {
++		   ret = -EINVAL;
++		   fprintf(stderr, "ERROR: Stream version %d not supported. "
++			   "Please upgrade btrfs-progs\n", bss.version);
++		   goto out;
++		 }
++
++		 bss.fd = s->send_fd;
++		 bss.ops = &send_ops1;
++		 bss.user = s;
++		 while (1) {
++		   ret = read_and_process_cmd(&bss, &bd);
++		   if (ret < 0)
++		     goto out;
++		   if (ret) {
++		     ret = 0;
++		     goto out;
++		   }
++		 }
++	 }
++
++ out:
++	 if (BTRFS_SUMMARY | BTRFS_ALL) {
++	   print_summary(&bd);
++	 }
++
++	 if (ret < 0) {
++	   exit(-ret);
++	 }
++	 return ERR_PTR(ret);
++}
++
+ static int write_buf(int fd, const void *buf, int size)
+ {
+ 	int ret;
+@@ -242,39 +438,7 @@ out:
+ 	return ret;
+ }
+ 
+-static void *dump_thread(void *arg_)
+-{
+-	int ret;
+-	struct btrfs_send *s = (struct btrfs_send*)arg_;
+-	char buf[4096];
+-	int readed;
+-
+-	while (1) {
+-		readed = read(s->send_fd, buf, sizeof(buf));
+-		if (readed < 0) {
+-			ret = -errno;
+-			fprintf(stderr, "ERROR: failed to read stream from "
+-					"kernel. %s\n", strerror(-ret));
+-			goto out;
+-		}
+-		if (!readed) {
+-			ret = 0;
+-			goto out;
+-		}
+-		ret = write_buf(s->dump_fd, buf, readed);
+-		if (ret < 0)
+-			goto out;
+-	}
+-
+-out:
+-	if (ret < 0) {
+-		exit(-ret);
+-	}
+-
+-	return ERR_PTR(ret);
+-}
+-
+-static int do_send(struct btrfs_send *send, u64 root_id, u64 parent_root)
++int do_send(struct btrfs_send *send, u64 root_id, u64 parent_root)
+ {
+ 	int ret;
+ 	pthread_t t_read;
+@@ -371,12 +535,12 @@ out:
+ 	return ret;
+ }
+ 
+-static const char *get_subvol_name(struct btrfs_send *s, const char *full_path)
++const char *get_subvol_name(struct btrfs_send *s, const char *full_path)
+ {
+ 	return full_path + strlen(s->root_path) + 1;
+ }
+ 
+-static int init_root_path(struct btrfs_send *s, const char *subvol)
++int init_root_path(struct btrfs_send *s, const char *subvol)
+ {
+ 	int ret = 0;
+ 
+@@ -411,7 +575,7 @@ out:
+ 
+ }
+ 
+-static int is_subvol_ro(struct btrfs_send *s, char *subvol)
++int is_subvol_ro(struct btrfs_send *s, char *subvol)
+ {
+ 	int ret;
+ 	u64 flags;
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/cmds-send.o b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-send.o
+new file mode 100644
+index 0000000..99161ea
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-send.o differ
+diff --git a/home/nafisa/btr-diff/btrfs-progs-original/cmds-subvolume.c b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-subvolume.c
+index 3508ce6..2dab579 100644
+--- a/home/nafisa/btr-diff/btrfs-progs-original/cmds-subvolume.c
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-subvolume.c
+@@ -28,6 +28,13 @@
+ #include "ioctl.h"
+ 
+ #include "commands.h"
++#include "send-utils.h"
++#include "send-stream.h"
++#include "send.h"
++
++BTRFS_ALL = 0;
++BTRFS_LIST = 0;
++BTRFS_SUMMARY = 0;
+ 
+ /* btrfs-list.c */
+ int list_subvols(int fd, int print_parent, int get_default);
+@@ -515,6 +522,183 @@ static int cmd_find_new(int argc, char **argv)
+ 	return 0;
+ }
+ 
++static const char * cmd_subvol_diff_usage[] = {
++        "btrfs subvolume diff <snapshot1> <snapshot2>",
++	"Lists the files changed (added, modified, removed) between snapshot1",
++        "and snapshot2. \n"
++        "-p <subvol>      uses the specified subvol as"
++        "                 parent for generating a diff."
++        "-a               prints the created, deleted and modified "
++        "                 files with the modified contents as well as"
++        "                 a summary of the changes incurred to the"
++        "                 file system."
++        "-l               gives a list of the files created, deleted"
++        "                 and modfied sans the contents."
++        "-s               gives a summary off the creations, deletions"
++        "                 and writes to the file system between the "
++	"                 specified snapshots.",
++        NULL
++};
++
++static int cmd_subvol_diff(int argc, char *argv[])
++{
++        int ret,i;
++	char c;
++	char *subvol = NULL;
++	char *snapshot_parent = NULL;
++	char *mount_root = NULL;
++	u64 parent_root_id = 0;
++	u64 root_id;
++	struct btrfs_send send;
++
++	if (check_argc_min(argc, 2))
++	  usage(cmd_subvol_diff_usage);
++
++	memset(&send, 0, sizeof(send));
++
++	while ((c = getopt(argc, argv, "p:las")) != -1) {
++	  switch (c) {
++	  case 'p':
++	    snapshot_parent = realpath(optarg, NULL);
++	    if (!snapshot_parent) {
++	      ret = -errno;
++	      fprintf(stderr, "realpath %s failed."
++		      "%s\n", optarg, strerror(-ret));
++	      goto out;
++	    }
++	    break;
++	  case 's':
++	    BTRFS_SUMMARY = 1;
++	    break;
++	  case 'a':
++	    BTRFS_ALL = 1;
++	    break;
++	  case 'l':
++	    BTRFS_LIST = 1;
++	    break;
++	  default:
++	    fprintf(stderr, "ERROR: diff args invalid\n");
++	    return -EINVAL;
++	  }
++	}
++
++	if (snapshot_parent == NULL) {
++	  fprintf(stderr, "ERROR: diff needs path to parent snapshot\n");
++	  return 1;
++	}
++
++	if (optind == argc) {
++	  fprintf(stderr, "ERROR: diff needs path to snapshot\n");
++	  return 1;
++	}
++	/* use first send subvol to determine mount_root */
++	subvol = argv[optind];
++
++	if (strcmp(snapshot_parent,subvol) == 0) {
++	  fprintf(stderr, "ERROR: diff encountered identical snapshots\n");
++	  return 1;
++	}
++
++	ret = init_root_path(&send, subvol);
++	if (ret < 0)
++	  goto out;
++
++	if (snapshot_parent != NULL) {
++	  ret = get_root_id(&send,
++			    get_subvol_name(&send, snapshot_parent),
++			    &parent_root_id);
++	  if (ret < 0) {
++	    fprintf(stderr, "ERROR: could not resolve root_id "
++		    "for %s\n", snapshot_parent);
++	    goto out;
++	  }
++
++	  add_clone_source(&send, parent_root_id);
++	}
++
++	for (i = optind; i < argc; i++) {
++	  subvol = argv[i];
++
++	  ret = find_mount_root(subvol, &mount_root);
++	  if (ret < 0) {
++	    fprintf(stderr, "ERROR: find_mount_root failed on %s: "
++		    "%s\n", subvol,
++		    strerror(-ret));
++	    goto out;
++	  }
++	  if (strcmp(send.root_path, mount_root) != 0) {
++	    ret = -EINVAL;
++	    fprintf(stderr, "ERROR: all subvols must be from the "
++		    "same fs.\n");
++	    goto out;
++	  }
++	  free(mount_root);
++
++	  ret = is_subvol_ro(&send, subvol);
++	  if (ret < 0)
++	    goto out;
++	  if (!ret) {
++	    ret = -EINVAL;
++	    fprintf(stderr, "ERROR: %s is not read-only.\n",
++		    subvol);
++	    goto out;
++	  }
++	}
++
++	for (i = optind; i < argc; i++) {
++	  subvol = argv[i];
++
++	  subvol = realpath(subvol, NULL);
++	  if (!subvol) {
++	    ret = -errno;
++	    fprintf(stderr, "ERROR: realpath %s failed. "
++		    "%s\n", argv[i], strerror(-ret));
++	    goto out;
++	  }
++
++	  ret = get_root_id(&send, get_subvol_name(&send, subvol),
++			    &root_id);
++	  if (ret < 0) {
++	    fprintf(stderr, "ERROR: could not resolve root_id "
++		    "for %s\n", subvol);
++	    goto out;
++	  }
++
++	  if (!parent_root_id) {
++	    ret = find_good_parent(&send, root_id, &parent_root_id);
++	    if (ret < 0)
++	      parent_root_id = 0;
++	  }
++
++	  ret = is_subvol_ro(&send, subvol);
++	  if (ret < 0)
++	    goto out;
++	  if (!ret) {
++	    ret = -EINVAL;
++	    fprintf(stderr, "ERROR: %s is not read-only.\n",
++		    subvol);
++	    goto out;
++	  }
++
++	  ret = do_send(&send, root_id, parent_root_id);
++	  if (ret < 0)
++	    goto out;
++
++	  add_clone_source(&send, root_id);
++
++	  parent_root_id = 0;
++	  free(subvol);
++	}
++
++	ret = 0;
++ out:
++	if (send.mnt_fd >= 0)
++	  close(send.mnt_fd);
++
++	return ret;
++}
++
++
+ const struct cmd_group subvolume_cmd_group = {
+ 	subvolume_cmd_group_usage, NULL, {
+ 		{ "create", cmd_subvol_create, cmd_subvol_create_usage, NULL, 0 },
+@@ -526,6 +710,7 @@ const struct cmd_group subvolume_cmd_group = {
+ 		{ "set-default", cmd_subvol_set_default,
+ 			cmd_subvol_set_default_usage, NULL, 0 },
+ 		{ "find-new", cmd_find_new, cmd_find_new_usage, NULL, 0 },
++		{ "diff", cmd_subvol_diff, cmd_subvol_diff_usage, NULL, 0 },
+ 		{ 0, 0, 0, 0, 0 }
+ 	}
+ };
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/cmds-subvolume.o b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-subvolume.o
+new file mode 100644
+index 0000000..5f6f84d
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/cmds-subvolume.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/common.o b/home/nafisa/Desktop/btrfs-progs-22-03/common.o
+new file mode 100644
+index 0000000..a105210
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/common.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/convert.o b/home/nafisa/Desktop/btrfs-progs-22-03/convert.o
+new file mode 100644
+index 0000000..5bece4c
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/convert.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/crc32c.o b/home/nafisa/Desktop/btrfs-progs-22-03/crc32c.o
+new file mode 100644
+index 0000000..ae08951
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/crc32c.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/ctree.o b/home/nafisa/Desktop/btrfs-progs-22-03/ctree.o
+new file mode 100644
+index 0000000..544e3a6
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/ctree.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/debug-tree.o b/home/nafisa/Desktop/btrfs-progs-22-03/debug-tree.o
+new file mode 100644
+index 0000000..a7f357b
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/debug-tree.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/dir-item.o b/home/nafisa/Desktop/btrfs-progs-22-03/dir-item.o
+new file mode 100644
+index 0000000..d3fd019
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/dir-item.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/disk-io.o b/home/nafisa/Desktop/btrfs-progs-22-03/disk-io.o
+new file mode 100644
+index 0000000..e9ad5b8
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/disk-io.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/extent-cache.o b/home/nafisa/Desktop/btrfs-progs-22-03/extent-cache.o
+new file mode 100644
+index 0000000..463c1bd
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/extent-cache.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/extent-tree.o b/home/nafisa/Desktop/btrfs-progs-22-03/extent-tree.o
+new file mode 100644
+index 0000000..f2dea63
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/extent-tree.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/extent_io.o b/home/nafisa/Desktop/btrfs-progs-22-03/extent_io.o
+new file mode 100644
+index 0000000..81495ee
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/extent_io.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/file-item.o b/home/nafisa/Desktop/btrfs-progs-22-03/file-item.o
+new file mode 100644
+index 0000000..3aa2f09
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/file-item.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/find-root.o b/home/nafisa/Desktop/btrfs-progs-22-03/find-root.o
+new file mode 100644
+index 0000000..e91cdb4
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/find-root.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/help.o b/home/nafisa/Desktop/btrfs-progs-22-03/help.o
+new file mode 100644
+index 0000000..a13ebdd
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/help.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/inode-item.o b/home/nafisa/Desktop/btrfs-progs-22-03/inode-item.o
+new file mode 100644
+index 0000000..a1123f7
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/inode-item.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/inode-map.o b/home/nafisa/Desktop/btrfs-progs-22-03/inode-map.o
+new file mode 100644
+index 0000000..6155d51
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/inode-map.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/man/btrfs-image.8.gz b/home/nafisa/Desktop/btrfs-progs-22-03/man/btrfs-image.8.gz
+new file mode 100644
+index 0000000..a193ab6
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/man/btrfs-image.8.gz differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/man/btrfs-show.8.gz b/home/nafisa/Desktop/btrfs-progs-22-03/man/btrfs-show.8.gz
+new file mode 100644
+index 0000000..20610b7
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/man/btrfs-show.8.gz differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/man/btrfs.8.gz b/home/nafisa/Desktop/btrfs-progs-22-03/man/btrfs.8.gz
+new file mode 100644
+index 0000000..aa48a01
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/man/btrfs.8.gz differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/man/btrfsck.8.gz b/home/nafisa/Desktop/btrfs-progs-22-03/man/btrfsck.8.gz
+new file mode 100644
+index 0000000..9011286
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/man/btrfsck.8.gz differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/man/btrfsctl.8.gz b/home/nafisa/Desktop/btrfs-progs-22-03/man/btrfsctl.8.gz
+new file mode 100644
+index 0000000..207685c
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/man/btrfsctl.8.gz differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/man/mkfs.btrfs.8.gz b/home/nafisa/Desktop/btrfs-progs-22-03/man/mkfs.btrfs.8.gz
+new file mode 100644
+index 0000000..fd06012
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/man/mkfs.btrfs.8.gz differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/mkfs.btrfs b/home/nafisa/Desktop/btrfs-progs-22-03/mkfs.btrfs
+new file mode 100755
+index 0000000..f212c04
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/mkfs.btrfs differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/mkfs.o b/home/nafisa/Desktop/btrfs-progs-22-03/mkfs.o
+new file mode 100644
+index 0000000..4fe2bce
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/mkfs.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/print-tree.o b/home/nafisa/Desktop/btrfs-progs-22-03/print-tree.o
+new file mode 100644
+index 0000000..9077e06
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/print-tree.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/radix-tree.o b/home/nafisa/Desktop/btrfs-progs-22-03/radix-tree.o
+new file mode 100644
+index 0000000..2168efd
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/radix-tree.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/rbtree.o b/home/nafisa/Desktop/btrfs-progs-22-03/rbtree.o
+new file mode 100644
+index 0000000..0bdcbab
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/rbtree.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/repair.o b/home/nafisa/Desktop/btrfs-progs-22-03/repair.o
+new file mode 100644
+index 0000000..626c8e8
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/repair.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/restore.o b/home/nafisa/Desktop/btrfs-progs-22-03/restore.o
+new file mode 100644
+index 0000000..fbbbae0
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/restore.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/root-tree.o b/home/nafisa/Desktop/btrfs-progs-22-03/root-tree.o
+new file mode 100644
+index 0000000..15efda9
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/root-tree.o differ
+diff --git a/home/nafisa/btr-diff/btrfs-progs-original/send-stream.c b/home/nafisa/Desktop/btrfs-progs-22-03/send-stream.c
+index 55fa728..aea5ae0 100644
+--- a/home/nafisa/btr-diff/btrfs-progs-original/send-stream.c
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/send-stream.c
+@@ -23,19 +23,6 @@
+ #include "send-stream.h"
+ #include "crc32c.h"
+ 
+-struct btrfs_send_stream {
+-	int fd;
+-	char read_buf[BTRFS_SEND_BUF_SIZE];
+-
+-	int cmd;
+-	struct btrfs_cmd_header *cmd_hdr;
+-	struct btrfs_tlv_header *cmd_attrs[BTRFS_SEND_A_MAX + 1];
+-	u32 version;
+-
+-	struct btrfs_send_ops *ops;
+-	void *user;
+-};
+-
+ static int read_buf(struct btrfs_send_stream *s, void *buf, int len)
+ {
+ 	int ret;
+@@ -272,7 +259,7 @@ tlv_get_failed:
+ #define TLV_GET_UUID(s, attr, uuid) \
+ 	__TLV_DO_WHILE_GOTO_FAIL(tlv_get_uuid(s, attr, uuid))
+ 
+-static int read_and_process_cmd(struct btrfs_send_stream *s)
++int read_and_process_cmd(struct btrfs_send_stream *s, struct btrfs_diff *d)
+ {
+ 	int ret;
+ 	char *path = NULL;
+@@ -296,6 +283,8 @@ static int read_and_process_cmd(struct btrfs_send_stream *s)
+ 	u64 offset;
+ 	int len;
+ 	int xattr_len;
++        static int show_no_del_flag = 1;
++	static int set_file_created = 0;
+ 
+ 	ret = read_cmd(s);
+ 	if (ret)
+@@ -306,7 +295,6 @@ static int read_and_process_cmd(struct btrfs_send_stream *s)
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+ 		TLV_GET_UUID(s, BTRFS_SEND_A_UUID, uuid);
+ 		TLV_GET_U64(s, BTRFS_SEND_A_CTRANSID, &ctransid);
+-		ret = s->ops->subvol(path, uuid, ctransid, s->user);
+ 		break;
+ 	case BTRFS_SEND_C_SNAPSHOT:
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+@@ -319,54 +307,82 @@ static int read_and_process_cmd(struct btrfs_send_stream *s)
+ 		break;
+ 	case BTRFS_SEND_C_MKFILE:
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+-		ret = s->ops->mkfile(path, s->user);
++                if (strstr(path, "~") == NULL) {
++		  set_file_created = 1;
++		  d->new_file++;
++                }
+ 		break;
+ 	case BTRFS_SEND_C_MKDIR:
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+-		ret = s->ops->mkdir(path, s->user);
++                !BTRFS_SUMMARY ? ret = s->ops->mkdir(path, s->user) : 0;
++                d->new_dir++;
++
+ 		break;
+ 	case BTRFS_SEND_C_MKNOD:
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+ 		TLV_GET_U64(s, BTRFS_SEND_A_MODE, &mode);
+ 		TLV_GET_U64(s, BTRFS_SEND_A_RDEV, &dev);
+-		ret = s->ops->mknod(path, mode, dev, s->user);
+ 		break;
+ 	case BTRFS_SEND_C_MKFIFO:
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+-		ret = s->ops->mkfifo(path, s->user);
+ 		break;
+ 	case BTRFS_SEND_C_MKSOCK:
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+-		ret = s->ops->mksock(path, s->user);
+ 		break;
+ 	case BTRFS_SEND_C_SYMLINK:
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_PATH_LINK, &path_to);
+-		ret = s->ops->symlink(path, path_to, s->user);
++                printf("SL : \t%s to %s\n\n", path, path_to);
+ 		break;
+ 	case BTRFS_SEND_C_RENAME:
+-		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+-		TLV_GET_STRING(s, BTRFS_SEND_A_PATH_TO, &path_to);
+-		ret = s->ops->rename(path, path_to, s->user);
++	  TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
++	  TLV_GET_STRING(s, BTRFS_SEND_A_PATH_TO, &path_to);
++
++	  if (set_file_created) {
++	    !BTRFS_SUMMARY ? ret = s->ops->mkfile(path_to, s->user) : 0;
++	  }
++	  else
++	    !BTRFS_SUMMARY ? ret = s->ops->rename(path, path_to, s->user) : 0;
+ 		break;
+ 	case BTRFS_SEND_C_LINK:
+-		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+-		TLV_GET_STRING(s, BTRFS_SEND_A_PATH_LINK, &path_to);
+-		ret = s->ops->link(path, path_to, s->user);
++	  TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
++	  TLV_GET_STRING(s, BTRFS_SEND_A_PATH_LINK, &path_to);
++
++	  if (strstr(path, "~") != NULL) {
++	    show_no_del_flag = 1;
++	  }
++	  else {
++	    !BTRFS_SUMMARY ? ret = s->ops->link(path, path_to, s->user) : 0;
++	    d->new_link++;
++	    show_no_del_flag = 0;
++	  }
+ 		break;
+ 	case BTRFS_SEND_C_UNLINK:
+-		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+-		ret = s->ops->unlink(path, s->user);
++	  TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
++
++	  if (show_no_del_flag) {
++	    !BTRFS_SUMMARY ? ret = s->ops->unlink(path, s->user) : 0;
++	    d->del_file++;
++	  }
++	  else {
++	    show_no_del_flag = 1;
++	  }
+ 		break;
+ 	case BTRFS_SEND_C_RMDIR:
+-		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+-		ret = s->ops->rmdir(path, s->user);
++	  TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
++	  !BTRFS_SUMMARY ? ret = s->ops->rmdir(path, s->user) : 0;
++	  d->del_dir++;
+ 		break;
+ 	case BTRFS_SEND_C_WRITE:
+-		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+-		TLV_GET_U64(s, BTRFS_SEND_A_FILE_OFFSET, &offset);
+-		TLV_GET(s, BTRFS_SEND_A_DATA, &data, &len);
+-		ret = s->ops->write(path, data, offset, len, s->user);
++	  TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
++	  TLV_GET_U64(s, BTRFS_SEND_A_FILE_OFFSET, &offset);
++	  TLV_GET(s, BTRFS_SEND_A_DATA, &data, &len);
++
++	  if(strstr(path, ".mp3") || strstr(path, ".jpg") || strstr(path, ".png") || strstr(path, ".mp4"))
++	    goto out;
++	  !BTRFS_SUMMARY ? ret = s->ops->write(path, data, offset, len, s->user) : 0;
++	  d->contents_changed++;
++
+ 		break;
+ 	case BTRFS_SEND_C_CLONE:
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+@@ -376,37 +392,29 @@ static int read_and_process_cmd(struct btrfs_send_stream *s)
+ 		TLV_GET_U64(s, BTRFS_SEND_A_CLONE_CTRANSID, &clone_ctransid);
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_CLONE_PATH, &clone_path);
+ 		TLV_GET_U64(s, BTRFS_SEND_A_CLONE_OFFSET, &clone_offset);
+-		ret = s->ops->clone(path, offset, len, clone_uuid,
+-				clone_ctransid, clone_path, clone_offset,
+-				s->user);
+ 		break;
+ 	case BTRFS_SEND_C_SET_XATTR:
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_XATTR_NAME, &xattr_name);
+ 		TLV_GET(s, BTRFS_SEND_A_XATTR_DATA, &xattr_data, &xattr_len);
+-		ret = s->ops->set_xattr(path, xattr_name, xattr_data,
+-				xattr_len, s->user);
+ 		break;
+ 	case BTRFS_SEND_C_REMOVE_XATTR:
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_XATTR_NAME, &xattr_name);
+-		ret = s->ops->remove_xattr(path, xattr_name, s->user);
+ 		break;
+ 	case BTRFS_SEND_C_TRUNCATE:
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+ 		TLV_GET_U64(s, BTRFS_SEND_A_SIZE, &tmp);
+-		ret = s->ops->truncate(path, tmp, s->user);
++                BTRFS_ALL ? printf(" S : \t%llu.%llu kb\n\n", tmp/1000, tmp%1000) : 0;
+ 		break;
+ 	case BTRFS_SEND_C_CHMOD:
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+ 		TLV_GET_U64(s, BTRFS_SEND_A_MODE, &tmp);
+-		ret = s->ops->chmod(path, tmp, s->user);
+ 		break;
+ 	case BTRFS_SEND_C_CHOWN:
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+ 		TLV_GET_U64(s, BTRFS_SEND_A_UID, &tmp);
+ 		TLV_GET_U64(s, BTRFS_SEND_A_GID, &tmp2);
+-		ret = s->ops->chown(path, tmp, tmp2, s->user);
+ 		break;
+ 	case BTRFS_SEND_C_UTIMES:
+ 		TLV_GET_STRING(s, BTRFS_SEND_A_PATH, &path);
+@@ -416,7 +424,6 @@ static int read_and_process_cmd(struct btrfs_send_stream *s)
+ 		TLV_GET_TIMESPEC(s, BTRFS_SEND_A_ATIME, &at);
+ 		TLV_GET_TIMESPEC(s, BTRFS_SEND_A_MTIME, &mt);
+ 		TLV_GET_TIMESPEC(s, BTRFS_SEND_A_CTIME, &ct);
+-		ret = s->ops->utimes(path, &at, &mt, &ct, s->user);
+ 		break;
+ 	case BTRFS_SEND_C_END:
+ 		ret = 1;
+@@ -466,7 +473,7 @@ int btrfs_read_and_process_send_stream(int fd,
+ 	}
+ 
+ 	while (1) {
+-		ret = read_and_process_cmd(&s);
++	  ret = read_and_process_cmd(&s, NULL);
+ 		if (ret < 0)
+ 			goto out;
+ 		if (ret) {
+diff --git a/home/nafisa/btr-diff/btrfs-progs-original/send-stream.h b/home/nafisa/Desktop/btrfs-progs-22-03/send-stream.h
+index b69b7f1..b29e2f4 100644
+--- a/home/nafisa/btr-diff/btrfs-progs-original/send-stream.h
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/send-stream.h
+@@ -17,6 +17,97 @@
+  */
+ #ifndef SEND_STREAM_H_
+ #define SEND_STREAM_H_
++#define BTRFS_SEND_BUF_SIZE (1024 * 64)
++
++int BTRFS_ALL;
++int BTRFS_LIST;
++int BTRFS_SUMMARY;
++
++enum btrfs_send_cmd {
++  BTRFS_SEND_C_UNSPEC,
++  BTRFS_SEND_C_SUBVOL,
++  BTRFS_SEND_C_SNAPSHOT,
++  BTRFS_SEND_C_MKFILE,
++  BTRFS_SEND_C_MKDIR,
++  BTRFS_SEND_C_MKNOD,
++  BTRFS_SEND_C_MKFIFO,
++  BTRFS_SEND_C_MKSOCK,
++  BTRFS_SEND_C_SYMLINK,
++  BTRFS_SEND_C_RENAME,
++  BTRFS_SEND_C_LINK,
++  BTRFS_SEND_C_UNLINK,
++  BTRFS_SEND_C_RMDIR,
++  BTRFS_SEND_C_SET_XATTR,
++  BTRFS_SEND_C_REMOVE_XATTR,
++  BTRFS_SEND_C_WRITE,
++  BTRFS_SEND_C_CLONE,
++  BTRFS_SEND_C_TRUNCATE,
++  BTRFS_SEND_C_CHMOD,
++  BTRFS_SEND_C_CHOWN,
++  BTRFS_SEND_C_UTIMES,
++  BTRFS_SEND_C_END,
++  BTRFS_SEND_C_UPDATE_EXTENT,
++  __BTRFS_SEND_C_MAX,
++};                                                         \
++
++#define BTRFS_SEND_C_MAX (__BTRFS_SEND_C_MAX - 1)
++
++/* attributes in send stream */
++enum {                                                     \
++                                                           \
++
++  BTRFS_SEND_A_UNSPEC,
++  BTRFS_SEND_A_UUID,
++  BTRFS_SEND_A_CTRANSID,
++  BTRFS_SEND_A_INO,
++  BTRFS_SEND_A_SIZE,
++  BTRFS_SEND_A_MODE,
++  BTRFS_SEND_A_UID,
++  BTRFS_SEND_A_GID,
++  BTRFS_SEND_A_RDEV,
++  BTRFS_SEND_A_CTIME,
++  BTRFS_SEND_A_MTIME,
++  BTRFS_SEND_A_ATIME,
++  BTRFS_SEND_A_OTIME,
++  BTRFS_SEND_A_XATTR_NAME,
++  BTRFS_SEND_A_XATTR_DATA,
++  BTRFS_SEND_A_PATH,
++  BTRFS_SEND_A_PATH_TO,
++  BTRFS_SEND_A_PATH_LINK,
++  BTRFS_SEND_A_FILE_OFFSET,
++  BTRFS_SEND_A_DATA,
++  BTRFS_SEND_A_CLONE_UUID,
++  BTRFS_SEND_A_CLONE_CTRANSID,
++  BTRFS_SEND_A_CLONE_PATH,
++  BTRFS_SEND_A_CLONE_OFFSET,
++  BTRFS_SEND_A_CLONE_LEN,
++  __BTRFS_SEND_A_MAX,
++};
++
++#define BTRFS_SEND_A_MAX (__BTRFS_SEND_A_MAX - 1)
++
++struct btrfs_diff {
++  int new_file;
++  int new_dir;
++  int del_file;
++  int new_link;
++  int del_dir;
++  int contents_changed;
++};
++
++struct btrfs_send_stream {
++  int fd;
++  char read_buf[BTRFS_SEND_BUF_SIZE];
++
++  int cmd;
++  struct btrfs_cmd_header *cmd_hdr;
++        struct btrfs_tlv_header *cmd_attrs[BTRFS_SEND_A_MAX\
++					   + 1];
++  u32 version;
++
++  struct btrfs_send_ops *ops;
++  void *user;
++};
+ 
+ struct btrfs_send_ops {
+ 	int (*subvol)(const char *path, const u8 *uuid, u64 ctransid,
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/send-stream.o b/home/nafisa/Desktop/btrfs-progs-22-03/send-stream.o
+new file mode 100644
+index 0000000..ccc3b0f
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/send-stream.o differ
+diff --git a/home/nafisa/btr-diff/btrfs-progs-original/send-utils.h b/home/nafisa/Desktop/btrfs-progs-22-03/send-utils.h
+index da407eb..f4eb9b4 100644
+--- a/home/nafisa/btr-diff/btrfs-progs-original/send-utils.h
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/send-utils.h
+@@ -52,6 +52,18 @@ struct subvol_uuid_search {
+ 	struct rb_root path_subvols;
+ };
+ 
++struct btrfs_send {
++  int send_fd;
++  int dump_fd;
++  int mnt_fd;
++
++  u64 *clone_sources;
++  u64 clone_sources_count;
++
++  char *root_path;
++  struct subvol_uuid_search sus;
++};
++
+ int subvol_uuid_search_init(int mnt_fd, struct subvol_uuid_search *s);
+ struct subvol_info *subvol_uuid_search(struct subvol_uuid_search *s,
+ 				       u64 root_id, const u8 *uuid, u64 transid,
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/send-utils.o b/home/nafisa/Desktop/btrfs-progs-22-03/send-utils.o
+new file mode 100644
+index 0000000..4a04b0a
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/send-utils.o differ
+diff --git a/home/nafisa/btr-diff/btrfs-progs-original/send.h b/home/nafisa/Desktop/btrfs-progs-22-03/send.h
+index b028c01..8576676 100644
+--- a/home/nafisa/btr-diff/btrfs-progs-original/send.h
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/send.h
+@@ -52,79 +52,6 @@ struct btrfs_tlv_header {
+ 	__le16 tlv_len;
+ } __attribute__ ((__packed__));
+ 
+-/* commands */
+-enum btrfs_send_cmd {
+-	BTRFS_SEND_C_UNSPEC,
+-
+-	BTRFS_SEND_C_SUBVOL,
+-	BTRFS_SEND_C_SNAPSHOT,
+-
+-	BTRFS_SEND_C_MKFILE,
+-	BTRFS_SEND_C_MKDIR,
+-	BTRFS_SEND_C_MKNOD,
+-	BTRFS_SEND_C_MKFIFO,
+-	BTRFS_SEND_C_MKSOCK,
+-	BTRFS_SEND_C_SYMLINK,
+-
+-	BTRFS_SEND_C_RENAME,
+-	BTRFS_SEND_C_LINK,
+-	BTRFS_SEND_C_UNLINK,
+-	BTRFS_SEND_C_RMDIR,
+-
+-	BTRFS_SEND_C_SET_XATTR,
+-	BTRFS_SEND_C_REMOVE_XATTR,
+-
+-	BTRFS_SEND_C_WRITE,
+-	BTRFS_SEND_C_CLONE,
+-
+-	BTRFS_SEND_C_TRUNCATE,
+-	BTRFS_SEND_C_CHMOD,
+-	BTRFS_SEND_C_CHOWN,
+-	BTRFS_SEND_C_UTIMES,
+-
+-	BTRFS_SEND_C_END,
+-	__BTRFS_SEND_C_MAX,
+-};
+-#define BTRFS_SEND_C_MAX (__BTRFS_SEND_C_MAX - 1)
+-
+-/* NL attributes */
+-enum {
+-	BTRFS_SEND_A_UNSPEC,
+-
+-	BTRFS_SEND_A_UUID,
+-	BTRFS_SEND_A_CTRANSID,
+-
+-	BTRFS_SEND_A_INO,
+-	BTRFS_SEND_A_SIZE,
+-	BTRFS_SEND_A_MODE,
+-	BTRFS_SEND_A_UID,
+-	BTRFS_SEND_A_GID,
+-	BTRFS_SEND_A_RDEV,
+-	BTRFS_SEND_A_CTIME,
+-	BTRFS_SEND_A_MTIME,
+-	BTRFS_SEND_A_ATIME,
+-	BTRFS_SEND_A_OTIME,
+-
+-	BTRFS_SEND_A_XATTR_NAME,
+-	BTRFS_SEND_A_XATTR_DATA,
+-
+-	BTRFS_SEND_A_PATH,
+-	BTRFS_SEND_A_PATH_TO,
+-	BTRFS_SEND_A_PATH_LINK,
+-
+-	BTRFS_SEND_A_FILE_OFFSET,
+-	BTRFS_SEND_A_DATA,
+-
+-	BTRFS_SEND_A_CLONE_UUID,
+-	BTRFS_SEND_A_CLONE_CTRANSID,
+-	BTRFS_SEND_A_CLONE_PATH,
+-	BTRFS_SEND_A_CLONE_OFFSET,
+-	BTRFS_SEND_A_CLONE_LEN,
+-
+-	__BTRFS_SEND_A_MAX,
+-};
+-#define BTRFS_SEND_A_MAX (__BTRFS_SEND_A_MAX - 1)
+-
+ #define BTRFS_SEND_SUBVOL_HAS_PARENT (1 << 0)
+ 
+ #ifdef __KERNEL__
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/utils.o b/home/nafisa/Desktop/btrfs-progs-22-03/utils.o
+new file mode 100644
+index 0000000..a1c0e1a
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/utils.o differ
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/version.h b/home/nafisa/Desktop/btrfs-progs-22-03/version.h
+new file mode 100644
+index 0000000..41a84d0
+--- /dev/null
++++ b/home/nafisa/Desktop/btrfs-progs-22-03/version.h
+@@ -0,0 +1,4 @@
++#ifndef __BUILD_VERSION
++#define __BUILD_VERSION
++#define BTRFS_BUILD_VERSION "Btrfs send-v1-5-g63e07c5-dirty"
++#endif
+diff --git a/home/nafisa/Desktop/btrfs-progs-22-03/volumes.o b/home/nafisa/Desktop/btrfs-progs-22-03/volumes.o
+new file mode 100644
+index 0000000..590426d
+Binary files /dev/null and b/home/nafisa/Desktop/btrfs-progs-22-03/volumes.o differ
